@@ -1,0 +1,15 @@
+(* 6: Khai báo chân kết nối với phần cứng (chương trình file .ucf)
+Ngõ vào:  *)
+NET "clk_ht"  LOC = "P38"  ;
+NET "clr"  LOC = "P60"  ;
+NET "pause"  LOC = "P61"  ;
+(* Ngõ ra:  *)
+NET "CA"  LOC = "P96"  ;
+
+NET "SEG<0>"  LOC = "P97"  ;
+NET "SEG<1>"  LOC = "P98"  ;
+NET "SEG<2>"  LOC = "P100"  ;
+NET "SEG<3>"  LOC = "P101"  ;
+NET "SEG<4>"  LOC = "P102"  ;
+NET "SEG<5>"  LOC = "P103"  ;
+NET "SEG<6>"  LOC = "P104"  ;
